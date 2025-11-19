@@ -29,11 +29,11 @@ public class ManageRotation : MonoBehaviour
         // Manage Rotation around Y-Axis
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            yRot = -0.5f;
+            yRot = -1.0f;
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            yRot = 0.5f;
+            yRot = 1.0f;
         }
         else 
         {
