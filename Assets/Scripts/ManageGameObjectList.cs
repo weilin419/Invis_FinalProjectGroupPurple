@@ -5,8 +5,8 @@ public class ManageGameObjectList : MonoBehaviour
 {
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
-    public GameObject instrctionPanel;
-    public GameObject lungPanel, heartPanel, stomachPanel, liverPanel, kidneyPanel;
+    public GameObject welcomePanel;
+    public GameObject lungPanel, heartPanel, digestivePanel, liverPanel, kidneyPanel, diaphragmPanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,7 +21,7 @@ public class ManageGameObjectList : MonoBehaviour
         {
             // Deactivate all objects.
             // Create for iteration
-            for (int i = 0; i < transform.childCount; i++)
+            for (int i = 0; i < transform.childCount - 1; i++)
             {
                 // Set deselected gameObject inactive, but selected objects stay active
                 transform.GetChild(i).gameObject.SetActive(false);
@@ -34,10 +34,10 @@ public class ManageGameObjectList : MonoBehaviour
 
             if (myObjList.Count == 1)
             {
-                instrctionPanel.SetActive(false);
+                welcomePanel.SetActive(false);
 
                 string objName = myObjList[0].name;
-                if (objName == "LungObj")
+                if (objName == "RespiratoryObj")
                 {
                     lungPanel.SetActive(true);
                 }
@@ -45,9 +45,9 @@ public class ManageGameObjectList : MonoBehaviour
                 {
                     heartPanel.SetActive(true);
                 }
-                else if (objName == "StomachObj")
+                else if (objName == "DigestiveObj")
                 {
-                    stomachPanel.SetActive(true);
+                    digestivePanel.SetActive(true);
                 }
                 else if (objName == "LiverObj")
                 {
@@ -57,13 +57,17 @@ public class ManageGameObjectList : MonoBehaviour
                 {
                     kidneyPanel.SetActive(true);
                 }
+                else if (objName == "DiaphragmObj")
+                {
+                    diaphragmPanel.SetActive(true);
+                }
             }
         }
 
         //Reset visibility by Input keyDown of Escape
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            for (int i = 0; i < transform.childCount; i++)
+            for (int i = 0; i < transform.childCount - 1; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(true);
                 //Access the Outline Component in the ToggleHighLightOnObj.cs
@@ -79,11 +83,12 @@ public class ManageGameObjectList : MonoBehaviour
 
             lungPanel.SetActive(false);
             heartPanel.SetActive(false);
-            stomachPanel.SetActive(false);
+            digestivePanel.SetActive(false);
             liverPanel.SetActive(false);
             kidneyPanel.SetActive(false);
+            diaphragmPanel.SetActive(false);
             
-            instrctionPanel.SetActive(true);
+            welcomePanel.SetActive(true);
         }
     }
 }

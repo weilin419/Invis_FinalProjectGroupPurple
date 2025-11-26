@@ -44,4 +44,22 @@ public class ToggleHighLight : MonoBehaviour
             myManagerObjectListScript.myObjList.Remove(transform.gameObject);
         }
     }
+
+    // Modification
+    public void TriggerHighlight()
+    {
+        Debug.Log("Click on Object!" + transform.name);
+        isClicked = !isClicked;
+
+        if (isClicked)
+        {
+            transform.GetComponent<Outline>().enabled = true;
+            myManagerObjectListScript.myObjList.Add(transform.gameObject);
+        }
+        else
+        {
+            transform.GetComponent<Outline>().enabled = false;
+            myManagerObjectListScript.myObjList.Remove(transform.gameObject);
+        }
+    }
 }
