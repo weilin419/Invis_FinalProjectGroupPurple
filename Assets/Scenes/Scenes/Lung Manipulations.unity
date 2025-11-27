@@ -309,19 +309,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 218506457}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 492356934}
-        m_TargetAssemblyTypeName: LoadNextScene, Assembly-CSharp
-        m_MethodName: LoadSceneByName
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Anatomy of Lungs
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &218506457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2049,7 +2037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19, y: -177}
+  m_AnchoredPosition: {x: 19, y: -99}
   m_SizeDelta: {x: 414.664, y: 83.2686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1453003442
@@ -2622,7 +2610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: 428}
+  m_AnchoredPosition: {x: 26, y: 328}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595242176
@@ -2650,12 +2638,8 @@ MonoBehaviour:
 
 
     After clicking
-    on the "Rotate Lungs" button, use the up, down, left, and right arrow keys to
-    rotate the lung.
-
-
-    After clicking on the "Zoom In/Out" button, use the slider
-    to zoom in and out of the lungs.
+    on the "Rotate Lungs" button, use the up, down, left, and right arrow keys on
+    your keyboard to rotate the lung.
 
 
     Click on the Anatomy of the Lung button
