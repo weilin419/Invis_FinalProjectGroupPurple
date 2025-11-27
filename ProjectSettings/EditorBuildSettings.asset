@@ -9,20 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/QuickOutline/Scenes/Main Menu.unity
+    path: Assets/Scenes/Scenes/Main Menu.unity
     guid: 86cff5c86c6cbac4ba89eaaea91dcd3e
   - enabled: 1
-    path: Assets/QuickOutline/Scenes/Lung Manipulations.unity
+    path: Assets/Scenes/Scenes/Lung Manipulations.unity
     guid: d08be4f2c38635c46a707d5b3193dc3c
   - enabled: 1
-    path: Assets/QuickOutline/Scenes/Anatomy of Lungs.unity
+    path: Assets/Scenes/Scenes/Anatomy of Lungs.unity
     guid: 9eb62efbcf933234f8d785b1c6bc6cf0
   - enabled: 1
-    path: Assets/QuickOutline/Scenes/Lung Cancer.unity
+    path: Assets/Scenes/Scenes/Lung Cancer.unity
     guid: 1b904b2a601f1094eb193372d455aa3e
   - enabled: 1
-    path: Assets/QuickOutline/Scenes/Review Scene.unity
+    path: Assets/Scenes/Scenes/Review Scene.unity
     guid: fbc01063310eb8142b0b866bb9565cee
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Acknowledgements.unity
+    guid: 857ce5f90d765824bb31f03e06cc9061
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
