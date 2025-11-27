@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class RawImageUVPicker : MonoBehaviour, IDragHandler
+public class RawImageUVPicker : MonoBehaviour, IPointerClickHandler
 {
 
     [SerializeField] 
@@ -11,7 +11,7 @@ public class RawImageUVPicker : MonoBehaviour, IDragHandler
     [SerializeField] 
     private Camera camera;
 
-    public void OnDrag(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
         if (rawImage == null || rawImage.texture == null)
             return;
@@ -48,6 +48,7 @@ public class RawImageUVPicker : MonoBehaviour, IDragHandler
             if(Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 Debug.Log(hit.collider.name);
+                hit.collider.gameObject.GetComponent<ToggleHighLightOnObj>().OnClickOnObjInImage();
             }
 
 

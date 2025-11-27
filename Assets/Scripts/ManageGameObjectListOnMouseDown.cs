@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class ManageGameObjectList : MonoBehaviour
+public class ManageGameObjectListOnMouseDown : MonoBehaviour
 {
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
@@ -21,7 +21,7 @@ public class ManageGameObjectList : MonoBehaviour
         {
             // Deactivate all objects.
             // Create for iteration
-            for (int i = 0; i < transform.childCount -1; i++)
+            for (int i = 0; i < transform.childCount - 1 ; i++)
             {
                 // Set deselected gameObject inactive, but selected objects stay active
                 transform.GetChild(i).gameObject.SetActive(false);
@@ -67,15 +67,15 @@ public class ManageGameObjectList : MonoBehaviour
         //Reset visibility by Input keyDown of Escape
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            for (int i = 0; i < transform.childCount -1; i++)
+            for (int i = 0; i < transform.childCount - 1 ; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(true);
-                //Access the Outline Component in the ToggleHighLightOnObj.cs
+                //Access the Outline Component in the ToggleHighLightOnMouseDown.cs
                 //We don't need any outline to highlight any objects.
                 transform.GetChild(i).GetComponent<Outline>().enabled = false;
 
-                //Rest the value of isClicked for the ToggleHighLightOnObj.cs
-                transform.GetChild(i).GetComponent<ToggleHighLightOnObj>().isClicked = false;
+                //Rest the value of isClicked for the ToggleHighLightOnMouseDown.cs
+                transform.GetChild(i).GetComponent<ToggleHighLightOnMouseDown>().isClicked = false;
             }
 
             // Clear the List
