@@ -8,7 +8,7 @@ public class TriggerPartical : MonoBehaviour
         
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         transform.GetComponent<ParticleSystem>().Play();
         transform.GetComponent<AudioSource>().Play();
