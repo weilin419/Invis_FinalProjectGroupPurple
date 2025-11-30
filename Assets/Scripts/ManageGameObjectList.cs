@@ -6,7 +6,7 @@ public class ManageGameObjectList : MonoBehaviour
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
     public GameObject welcomePanel;
-    public GameObject lungPanel, heartPanel, digestivePanel, liverPanel, kidneyPanel, diaphragmPanel;
+    public GameObject oralCavityPanel, nasalCavity, pharynxPanel, larynxPanel, tracheaPanel, bronchiPanel, lungPanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,29 +37,33 @@ public class ManageGameObjectList : MonoBehaviour
                 welcomePanel.SetActive(false);
 
                 string objName = myObjList[0].name;
-                if (objName == "RespiratoryObj")
+                if (objName == "OralCavity")
+                {
+                    oralCavityPanel.SetActive(true);
+                }
+                else if (objName == "NasalCavity")
+                {
+                    nasalCavity.SetActive(true);
+                }
+                else if (objName == "Pharynx")
+                {
+                    pharynxPanel.SetActive(true);
+                }
+                else if (objName == "Larynx")
+                {
+                    larynxPanel.SetActive(true);
+                }
+                else if (objName == "Trachea")
+                {
+                    tracheaPanel.SetActive(true);
+                }
+                else if (objName == "Bronchi")
+                {
+                    bronchiPanel.SetActive(true);
+                }
+                else if (objName == "Lung")
                 {
                     lungPanel.SetActive(true);
-                }
-                else if (objName == "HeartObj")
-                {
-                    heartPanel.SetActive(true);
-                }
-                else if (objName == "DigestiveObj")
-                {
-                    digestivePanel.SetActive(true);
-                }
-                else if (objName == "LiverObj")
-                {
-                    liverPanel.SetActive(true);
-                }
-                else if (objName == "KidneyObj")
-                {
-                    kidneyPanel.SetActive(true);
-                }
-                else if (objName == "DiaphragmObj")
-                {
-                    diaphragmPanel.SetActive(true);
                 }
             }
         }
@@ -81,12 +85,13 @@ public class ManageGameObjectList : MonoBehaviour
             // Clear the List
             myObjList.Clear();
 
+            oralCavityPanel.SetActive(false);
+            nasalCavity.SetActive(false);
+            pharynxPanel.SetActive(false);
+            larynxPanel.SetActive(false);
+            tracheaPanel.SetActive(false);
+            bronchiPanel.SetActive(false);
             lungPanel.SetActive(false);
-            heartPanel.SetActive(false);
-            digestivePanel.SetActive(false);
-            liverPanel.SetActive(false);
-            kidneyPanel.SetActive(false);
-            diaphragmPanel.SetActive(false);
             
             welcomePanel.SetActive(true);
         }
