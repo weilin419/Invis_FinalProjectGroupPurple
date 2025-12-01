@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ToggleAnimation : MonoBehaviour
 {
-    //TriggerPartical triggerParticalScript;
+    // TriggerPartical triggerParticalScript;
 
     void Start()
     {
@@ -18,7 +18,12 @@ public class ToggleAnimation : MonoBehaviour
     public void Toggle(GameObject gameobject)
     {
         gameObject.SetActive(!gameObject.activeSelf);
-        //triggerParticalScript = GameObject.FindGameObjectWithTag("OralCavity").GetComponent<TriggerPartical>();
-        //triggerParticalScript.OnMouseDown();
+        // triggerParticalScript = GameObject.FindGameObjectWithTag("OralCavity").GetComponent<TriggerPartical>();
+        // triggerParticalScript.OnMouseDown();
+    }
+    public void particleTrigger()
+    {
+        transform.GetComponent<ParticleSystem>().Play();
+        transform.GetComponent<AudioSource>().Play();
     }
 }
