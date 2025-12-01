@@ -5,9 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Droplet Transmission.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Tiffany's Scenes/Main Menu.unity
+    guid: 86cff5c86c6cbac4ba89eaaea91dcd3e
+  - enabled: 1
+    path: Assets/Scenes/Tiffany's Scenes/Review Scene.unity
+    guid: fbc01063310eb8142b0b866bb9565cee
+  - enabled: 1
+    path: Assets/Scenes/Tiffany's Scenes/Tuberculosis.unity
+    guid: 31f2f0ae211adaa4e8e4534836c86a42
+  - enabled: 1
+    path: Assets/Scenes/Tiffany's Scenes/Lung Manipulations.unity
+    guid: d8528be5659c2c34582cf01c92e85868
+  - enabled: 1
+    path: Assets/Scenes/Tiffany's Scenes/Lung Cancer.unity
+    guid: 1b904b2a601f1094eb193372d455aa3e
+  - enabled: 1
+    path: Assets/Scenes/Tiffany's Scenes/Anatomy of Lungs.unity
+    guid: 9eb62efbcf933234f8d785b1c6bc6cf0
+  - enabled: 1
+    path: Assets/Scenes/Wei's Scenes/Respiratory System.unity
+    guid: f4eb14e645d852343a30c9788ccbe210
+  - enabled: 1
+    path: Assets/Scenes/Wei's Scenes/ParticleTest.unity
+    guid: 7d2e33ad1e7f7f643b2c8d9c79a58e2c
+  - enabled: 1
+    path: Assets/Scenes/Wei's Scenes/Lung Position in Body.unity
+    guid: fb87498c1abd26e4084f5ce5828af7e8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

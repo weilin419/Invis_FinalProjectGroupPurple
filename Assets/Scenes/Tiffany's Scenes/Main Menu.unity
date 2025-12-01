@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 470609606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38609ba3a3cf1194cb731d2cf8c710bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 54e258bf98229104b928c133111cb459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &470609608
@@ -1077,7 +1077,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 639438595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15171e631a55c5f479a002c943732218, type: 3}
+  m_Script: {fileID: 11500000, guid: 1161015467e59b04d80489b659bdd755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &639438597
@@ -2112,18 +2112,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 639438596}
-        m_TargetAssemblyTypeName: LoadNextScene, Assembly-CSharp
-        m_MethodName: LoadSceneByName
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 286207418}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
