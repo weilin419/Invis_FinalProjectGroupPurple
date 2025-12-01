@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ToggleHighLightOnObj : MonoBehaviour
 {
+    //Script from Matt's videos on Canvas and then modified by Matt again in class
+    
     public bool isClicked = false;
     
     public GameObject myManagerObj;

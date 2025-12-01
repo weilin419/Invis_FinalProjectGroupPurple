@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ToggleHighLightOnMouseDown : MonoBehaviour
 {
+    //Script from Matt's videos on Canvas
+    
     public bool isClicked = false;
     
     public GameObject myManagerObj;

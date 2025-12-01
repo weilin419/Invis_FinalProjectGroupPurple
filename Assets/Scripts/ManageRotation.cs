@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ManageRotation : MonoBehaviour
 {
+    //Wei wrote and figure by himself based on Matt's class video on Canvas
+    
     private float yRot = 0.0f;
     private Vector3 eulerRot;
 

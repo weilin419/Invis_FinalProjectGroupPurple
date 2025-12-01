@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ToggleAnimation : MonoBehaviour
 {
+    //Script from Kerri's videos on Canvas
     // TriggerPartical triggerParticalScript;
 
     void Start()
@@ -20,10 +21,5 @@ public class ToggleAnimation : MonoBehaviour
         gameObject.SetActive(!gameObject.activeSelf);
         // triggerParticalScript = GameObject.FindGameObjectWithTag("OralCavity").GetComponent<TriggerPartical>();
         // triggerParticalScript.OnMouseDown();
-    }
-    public void particleTrigger()
-    {
-        transform.GetComponent<ParticleSystem>().Play();
-        transform.GetComponent<AudioSource>().Play();
     }
 }
