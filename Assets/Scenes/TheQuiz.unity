@@ -953,7 +953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &93565705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1098,7 +1098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &98048578
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2302,7 +2302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &157905642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3738,7 +3738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &216801298
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7193,7 +7193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &564721058
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7845,7 +7845,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 646789819}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -8077,7 +8077,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 493864717}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -9529,7 +9529,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1197317426}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -10097,7 +10097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &746756591
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13281,7 +13281,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 458171628}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -13536,7 +13536,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 152700690}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -17499,7 +17499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1383651031
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18301,7 +18301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1452698800
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19421,7 +19421,6 @@ GameObject:
   - component: {fileID: 1546746145}
   - component: {fileID: 1546746147}
   - component: {fileID: 1546746146}
-  - component: {fileID: 1546746148}
   m_Layer: 5
   m_Name: Questions
   m_TagString: Untagged
@@ -19496,24 +19495,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546746144}
   m_CullTransparentMesh: 1
---- !u!114 &1546746148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546746144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c54a19149b6ba94f9fb307a9226e666, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctResponse: {fileID: 0}
-  userResponse: {fileID: 0}
-  myToggleGroup: {fileID: 0}
-  positiveFeedback: {fileID: 0}
-  negativeFeedback: {fileID: 0}
-  myQuizManagerScript: {fileID: 0}
 --- !u!1 &1547486366
 GameObject:
   m_ObjectHideFlags: 0
@@ -19771,7 +19752,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1528899943}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -20347,10 +20328,18 @@ MonoBehaviour:
   maxQuestionIndex: 3
   myQuestionIndex: 0
   questionList:
+  - {fileID: 1766942320}
   - {fileID: 646789817}
   - {fileID: 152700688}
+  - {fileID: 1528899941}
+  - {fileID: 290173691}
+  - {fileID: 1197317424}
+  - {fileID: 458171626}
+  - {fileID: 493864715}
+  - {fileID: 789031284}
+  - {fileID: 739640078}
   score: 0
-  finalPanel: {fileID: 0}
+  finalPanel: {fileID: 747359410}
 --- !u!1 &1703354113
 GameObject:
   m_ObjectHideFlags: 0
@@ -21189,7 +21178,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1741935326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21421,7 +21410,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 739640080}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -21704,7 +21693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1766942321
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22666,7 +22655,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 789031286}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp
@@ -23747,7 +23736,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 290173693}
         m_TargetAssemblyTypeName: QuestionM, Assembly-CSharp

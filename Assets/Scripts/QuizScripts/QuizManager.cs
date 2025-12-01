@@ -6,9 +6,9 @@ using TMPro;
 
 public class QuizManager : MonoBehaviour
 {
-    public int maxQuestionIndex = 3;
+    public int maxQuestionIndex = 10;
 
-    public int myQuestionIndex = 0; 
+    public int myQuestionIndex = 10; 
 
     public List<GameObject> questionList;
 
@@ -21,7 +21,7 @@ public class QuizManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //OnNextClick();
+        OnNextClick();
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class QuizManager : MonoBehaviour
         {
             //pick up randomly one question out of the list
             int index = Random.Range(0, questionList.Count-1);
-            //set active the gameObject from the lsit at position index
+            //set active the gameObject from the list at position index
 
             questionList[index].SetActive(true);
             //this makes the question that just showed up randomly to not come up again
