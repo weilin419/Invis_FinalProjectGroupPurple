@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -12}
+  m_AnchoredPosition: {x: 33, y: -3}
   m_SizeDelta: {x: 341.2093, y: 154.4855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &94729250
@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Left Lung Inferior Lobe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -52.23227, w: 0}
+  m_margin: {x: 0, y: 0, z: -18.194061, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -290,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -627, y: -13.917114}
-  m_SizeDelta: {x: -1509.536, y: -869.0988}
+  m_AnchoredPosition: {x: -620, y: -0.78326416}
+  m_SizeDelta: {x: -1554.5, y: -895.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108989810
 MonoBehaviour:
@@ -706,7 +706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494736882
@@ -731,8 +731,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -842,7 +842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 123, y: -13}
+  m_AnchoredPosition: {x: 136, y: -13}
   m_SizeDelta: {x: 462.8969, y: 88.3811}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &495868462
@@ -867,8 +867,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trachea
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -980,8 +980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: -297}
-  m_SizeDelta: {x: 277.8776, y: 90.6683}
+  m_AnchoredPosition: {x: -0.4285, y: -282}
+  m_SizeDelta: {x: 255.0207, y: 128.3184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &597459830
 MonoBehaviour:
@@ -1143,8 +1143,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 60c6e0872d099d84bbe0e27f7d528c1d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1615,7 +1615,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -12}
+  m_AnchoredPosition: {x: 29, y: -12}
   m_SizeDelta: {x: 341.2093, y: 154.4855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849792814
@@ -1640,8 +1640,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Left Lung Superior Lobe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2016,8 +2016,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -672, y: -298}
-  m_SizeDelta: {x: -1509.536, y: -869.0988}
+  m_AnchoredPosition: {x: -647, y: -271}
+  m_SizeDelta: {x: -1584, y: -889.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004680874
 MonoBehaviour:
@@ -2091,7 +2091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -15}
+  m_AnchoredPosition: {x: 53, y: -10}
   m_SizeDelta: {x: 341.2093, y: 154.4855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069109593
@@ -2118,8 +2118,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2229,7 +2229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 20.052185}
+  m_AnchoredPosition: {x: 31, y: -4}
   m_SizeDelta: {x: 341.2093, y: 154.4855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119204373
@@ -2254,8 +2254,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Right Lung Superior Lobe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2399,7 +2399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -440, y: 317}
+  m_AnchoredPosition: {x: -440, y: 281}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195936576
@@ -2435,8 +2435,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3091,8 +3091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 652, y: -284}
-  m_SizeDelta: {x: -1509.536, y: -869.0988}
+  m_AnchoredPosition: {x: 654, y: -284}
+  m_SizeDelta: {x: -1548.2783, y: -869.0988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487052628
 MonoBehaviour:
@@ -3179,8 +3179,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 624, y: 56}
-  m_SizeDelta: {x: -1509.536, y: -869.0988}
+  m_AnchoredPosition: {x: 602.42896, y: 34}
+  m_SizeDelta: {x: -1552.6781, y: -869.0988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507591286
 MonoBehaviour:
@@ -3376,8 +3376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 373, y: 308}
-  m_SizeDelta: {x: -1604.9037, y: -890.3915}
+  m_AnchoredPosition: {x: 364.4392, y: 295}
+  m_SizeDelta: {x: -1622.0254, y: -950.5376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667551330
 MonoBehaviour:
@@ -3546,8 +3546,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -575, y: 284}
-  m_SizeDelta: {x: -1509.536, y: -808.933}
+  m_AnchoredPosition: {x: -550, y: 268}
+  m_SizeDelta: {x: -1509.536, y: -884.3348}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1749585309
 MonoBehaviour:
@@ -3986,8 +3986,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4386,7 +4386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -19}
+  m_AnchoredPosition: {x: 33, y: -7}
   m_SizeDelta: {x: 341.2093, y: 154.4855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004250397
@@ -4411,8 +4411,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Right Lung Inferior Lobe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
+  m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
