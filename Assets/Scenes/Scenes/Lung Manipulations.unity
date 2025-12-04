@@ -291,7 +291,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 874629577}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ModelRotation, Assembly-CSharp
         m_MethodName: set_enabled
         m_Mode: 6
@@ -486,7 +486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 378654274}
-  - component: {fileID: 378654273}
+  - component: {fileID: 378654275}
   m_Layer: 0
   m_Name: QuitApplication
   m_TagString: Untagged
@@ -494,18 +494,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &378654273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378654272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38609ba3a3cf1194cb731d2cf8c710bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &378654274
 Transform:
   m_ObjectHideFlags: 0
@@ -521,6 +509,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &378654275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378654272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e258bf98229104b928c133111cb459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &492356933
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 492356933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15171e631a55c5f479a002c943732218, type: 3}
+  m_Script: {fileID: 11500000, guid: 1161015467e59b04d80489b659bdd755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &492356935
@@ -1179,6 +1179,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ce1f5c0d5b4453e4ba07394b9c02d246, type: 3}
       insertIndex: -1
       addedObject: {fileID: 874629577}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ce1f5c0d5b4453e4ba07394b9c02d246, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874629578}
   m_SourcePrefab: {fileID: 100100000, guid: ce1f5c0d5b4453e4ba07394b9c02d246, type: 3}
 --- !u!4 &874629575 stripped
 Transform:
@@ -1191,6 +1194,18 @@ GameObject:
   m_PrefabInstance: {fileID: 874629574}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &874629577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874629576}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3700414b34f43b844bef229651f99837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &874629578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1726,13 +1741,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 874629577}
+        m_TargetAssemblyTypeName: ManageRotation, Assembly-CSharp
+        m_MethodName: ResetRotation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2134,7 +2149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19, y: -99}
+  m_AnchoredPosition: {x: 19, y: -161}
   m_SizeDelta: {x: 414.664, y: 83.2686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1453003442
@@ -2350,8 +2365,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 378654273}
-        m_TargetAssemblyTypeName: QuitApp, Assembly-CSharp
+      - m_Target: {fileID: 378654275}
+        m_TargetAssemblyTypeName: QuitApplication, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
@@ -2723,7 +2738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: 328}
+  m_AnchoredPosition: {x: 26, y: 413}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595242176
@@ -2753,6 +2768,11 @@ MonoBehaviour:
     After clicking
     on the "Rotate Lungs" button, use the up, down, left, and right arrow keys on
     your keyboard to rotate the lung.
+
+
+
+    If the lungs are no longer visible after
+    manipulation, press ''Reset.''
 
 
     Click on the Anatomy of the Lung button
@@ -3269,7 +3289,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 874629577}
+      - m_Target: {fileID: 874629578}
         m_TargetAssemblyTypeName: ModelRotation, Assembly-CSharp
         m_MethodName: set_enabled
         m_Mode: 6
