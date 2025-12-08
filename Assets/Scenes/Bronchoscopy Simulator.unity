@@ -1170,7 +1170,7 @@ GameObject:
   - component: {fileID: 672603046}
   - component: {fileID: 672603045}
   m_Layer: 5
-  m_Name: NearTotalObstruction Panel
+  m_Name: NarTotalObstruction Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
