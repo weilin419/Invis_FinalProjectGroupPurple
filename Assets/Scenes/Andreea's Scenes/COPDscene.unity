@@ -2367,7 +2367,7 @@ GameObject:
   - component: {fileID: 922260464}
   - component: {fileID: 922260465}
   m_Layer: 5
-  m_Name: LungToggle
+  m_Name: AlveoliToggle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2933,7 +2933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1111068499
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3090,7 +3090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1141031482
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4872,7 +4872,7 @@ GameObject:
   - component: {fileID: 1706459111}
   - component: {fileID: 1706459112}
   m_Layer: 5
-  m_Name: AlveoliToggle
+  m_Name: LungToggle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
