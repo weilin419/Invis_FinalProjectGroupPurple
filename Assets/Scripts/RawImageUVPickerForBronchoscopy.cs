@@ -2,13 +2,62 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class RawImageUVPickerForBronchoscopy : MonoBehaviour, IPointerClickHandler
+public class RawImageUVPickerForBronchoscopy : MonoBehaviour, IPointerClickHandler//, IPointerDownHandler
 {
+    //Script was provided by Matt after he consulted Micorsoft Edge AI and he modified it
     [SerializeField] 
     private RawImage rawImage;
 
     [SerializeField] 
     private Camera camera;
+
+    // Debug part
+    /*public void OnPointerDown(PointerEventData eventData)
+    {
+        if (rawImage == null || rawImage.texture == null)
+            return;
+
+        RectTransform rt = rawImage.rectTransform;
+
+        // Convert screen point to local point in RawImage space
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            rt, eventData.position, eventData.pressEventCamera, out Vector2 localPoint))
+        {
+
+            // Normalize local point to [0,1] UV coordinates
+            Rect rect = rt.rect;
+            float u = Mathf.InverseLerp(rect.xMin, rect.xMax, localPoint.x);
+            float v = Mathf.InverseLerp(rect.yMin, rect.yMax, localPoint.y);
+
+            // Adjust for RawImage UV rect (in case of tiling/offset)
+            Rect uvRect = rawImage.uvRect;
+            u = uvRect.x + u * uvRect.width;
+            v = uvRect.y + v * uvRect.height;
+
+            Debug.Log($"UV: ({u:F3}, {v:F3})");
+
+            // If you want pixel coordinates in the texture:
+            int texX = Mathf.RoundToInt(u * rawImage.texture.width);
+            int texY = Mathf.RoundToInt(v * rawImage.texture.height);
+            //Debug.Log($"Pixel: ({texX}, {texY})");
+
+            //The remaining script below was provided by Matt after he consulted Microsoft Edge AI and he modified it
+            RaycastHit hit;
+            //Vector3 AdjustedScreenPosition = new Vector3 (Mathf.RoundToInt(u * Screen.width), Mathf.RoundToInt(v * Screen.height), 0.0f);
+            Vector3 AdjustedScreenPosition = new Vector3 (texX, texY, 0.0f);
+            Ray ray = camera.ScreenPointToRay(AdjustedScreenPosition);
+
+            //Debug.Log(AdjustedScreenPosition.x);   
+            Debug.DrawRay(ray.origin, ray.direction *10000.0f, Color.red);
+
+            /*if(Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                Debug.Log(hit.collider.name);
+                hit.collider.gameObject.GetComponent<ToggleHighLightForBronchoscopy>().OnClickOnObjInImage();
+            }
+        }
+
+    }*/
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -21,6 +70,8 @@ public class RawImageUVPickerForBronchoscopy : MonoBehaviour, IPointerClickHandl
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
             rt, eventData.position, eventData.pressEventCamera, out Vector2 localPoint))
         {
+
+           
             // Normalize local point to [0,1] UV coordinates
             Rect rect = rt.rect;
             float u = Mathf.InverseLerp(rect.xMin, rect.xMax, localPoint.x);
@@ -38,8 +89,10 @@ public class RawImageUVPickerForBronchoscopy : MonoBehaviour, IPointerClickHandl
             int texY = Mathf.RoundToInt(v * rawImage.texture.height);
             //Debug.Log($"Pixel: ({texX}, {texY})");
 
+            //The remaining script below was provided by Matt after he consulted Microsoft Edge AI and he modified it
             RaycastHit hit;
-            Vector3 AdjustedScreenPosition = new Vector3 (Mathf.RoundToInt(u * Screen.width), Mathf.RoundToInt(v * Screen.height), 0.0f);
+            //Vector3 AdjustedScreenPosition = new Vector3 (Mathf.RoundToInt(u * Screen.width), Mathf.RoundToInt(v * Screen.height), 0.0f);
+            Vector3 AdjustedScreenPosition = new Vector3 (texX, texY, 0.0f);
             Ray ray = camera.ScreenPointToRay(AdjustedScreenPosition);
 
             //Debug.Log(AdjustedScreenPosition.x);   
