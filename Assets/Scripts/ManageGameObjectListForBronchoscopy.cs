@@ -6,7 +6,7 @@ public class ManageGameObjectListForBronchoscopy : MonoBehaviour
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
     public GameObject welcomePanel;
-    public GameObject nearTotalObstructionPanel , partialObstructionPanel , TEFPanel;
+    public GameObject nearTotalObstructionPanel , partialObstructionPanel , TEFPanel, fishBonePanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,7 +50,10 @@ public class ManageGameObjectListForBronchoscopy : MonoBehaviour
                 {
                     TEFPanel.SetActive(true);
                 }
-
+                else if (objName == "fishBone")
+                {
+                    fishBonePanel.SetActive(true);
+                }
             }
         }
 
