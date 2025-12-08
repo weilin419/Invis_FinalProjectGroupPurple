@@ -6,7 +6,7 @@ public class ManageGameObjectListForBronchoscopy : MonoBehaviour
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
     public GameObject welcomePanel;
-    public GameObject nearTotalObstructionPanel;
+    public GameObject nearTotalObstructionPanel , partialObstructionPanel , TEFPanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,12 +34,21 @@ public class ManageGameObjectListForBronchoscopy : MonoBehaviour
 
             if (myObjList.Count == 1)
             {
-                welcomePanel.SetActive(false);
+                //welcomePanel.SetActive(false);
 
                 string objName = myObjList[0].name;
                 if (objName == "nearTotalObstruction")
                 {
+                    Debug.Log("The panel should be actived!");
                     nearTotalObstructionPanel.SetActive(true);
+                }
+                else if (objName == "partialObstruction")
+                {
+                    partialObstructionPanel.SetActive(true);
+                }
+                else if (objName == "TEF")
+                {
+                    TEFPanel.SetActive(true);
                 }
 
             }
@@ -51,20 +60,22 @@ public class ManageGameObjectListForBronchoscopy : MonoBehaviour
             for (int i = 0; i < transform.childCount ; i++)
             {
                 transform.GetChild(i).gameObject.SetActive(true);
-                //Access the Outline Component in the ToggleHighLightOnObj.cs
+                //Access the Outline Component in the ToggleHighLightForBronchoscopy.cs
                 //We don't need any outline to highlight any objects.
                 transform.GetChild(i).GetComponent<Outline>().enabled = false;
 
-                //Rest the value of isClicked for the ToggleHighLightOnObj.cs
-                transform.GetChild(i).GetComponent<ToggleHighLightOnObj>().isClicked = false;
+                //Rest the value of isClicked for the TToggleHighLightForBronchoscopy.cs
+                transform.GetChild(i).GetComponent<ToggleHighLightForBronchoscopy>().isClicked = false;
             }
 
             // Clear the List
             myObjList.Clear();
 
             nearTotalObstructionPanel.SetActive(false);
+            partialObstructionPanel.SetActive(false);
+            TEFPanel.SetActive(false);
             
-            welcomePanel.SetActive(true);
+            //welcomePanel.SetActive(true);
         }
     }
 }

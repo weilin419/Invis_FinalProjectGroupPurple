@@ -41,6 +41,7 @@ public class RawImageUVPickerForBronchoscopy : MonoBehaviour, IPointerClickHandl
             RaycastHit hit;
             Vector3 AdjustedScreenPosition = new Vector3 (Mathf.RoundToInt(u * Screen.width), Mathf.RoundToInt(v * Screen.height), 0.0f);
             Ray ray = camera.ScreenPointToRay(AdjustedScreenPosition);
+
             //Debug.Log(AdjustedScreenPosition.x);   
             Debug.DrawRay(ray.origin, ray.direction *100.0f, Color.green);
 
