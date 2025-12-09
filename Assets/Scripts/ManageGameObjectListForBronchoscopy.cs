@@ -77,6 +77,7 @@ public class ManageGameObjectListForBronchoscopy : MonoBehaviour
             nearTotalObstructionPanel.SetActive(false);
             partialObstructionPanel.SetActive(false);
             TEFPanel.SetActive(false);
+            fishBonePanel.SetActive(false);
             
             //welcomePanel.SetActive(true);
         }
