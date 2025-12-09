@@ -54,7 +54,7 @@ public class QuizManager : MonoBehaviour
 
             finalPanel.SetActive(true);
 
-            finalPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Score is" + score;
+            finalPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Score is " + score;
         }
 
     }
