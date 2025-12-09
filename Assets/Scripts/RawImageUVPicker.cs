@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 public class RawImageUVPicker : MonoBehaviour, IPointerClickHandler
 {
-
+    //Script provided by Matt; Matt modified a script he got from Microsoft CoPilot
     [SerializeField] 
     private RawImage rawImage;
 
@@ -45,6 +45,7 @@ public class RawImageUVPicker : MonoBehaviour, IPointerClickHandler
             //Debug.Log(AdjustedScreenPosition.x);   
             Debug.DrawRay(ray.origin, ray.direction *100.0f, Color.green);
 
+            //The part below was written by Wei and then modified by Matt
             if(Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 Debug.Log(hit.collider.name);
