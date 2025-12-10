@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ToggleHighLightOnObj : MonoBehaviour
 {
-    //Script from Matt's videos on Canvas and then modified by Matt again in class
+    // Wei modified this script that is referenced from Matt's recording of the Outline Logic:
+    // https://canvas.gsa.ac.uk/courses/2804/pages/week-4-introduction-to-c-number-scripting-2?module_item_id=192435
     
     public bool isClicked = false;
     
@@ -28,7 +29,7 @@ public class ToggleHighLightOnObj : MonoBehaviour
         
     }
 
-    //void OnMouseDown()
+    // Matt modified this part 
     public void OnClickOnObjInImage()
     {
         Debug.Log("Click on Object!" + transform.name);
@@ -48,7 +49,7 @@ public class ToggleHighLightOnObj : MonoBehaviour
         }
     }
 
-    // Modification
+    // Matt modified this part 
     public void TriggerHighlight()
     {
         Debug.Log("Click on Object!" + transform.name);
