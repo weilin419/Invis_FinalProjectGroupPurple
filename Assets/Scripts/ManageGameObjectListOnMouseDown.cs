@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 public class ManageGameObjectListOnMouseDown : MonoBehaviour
 {
-    //Wei wrote and figure by himself based on Matt's class video on Canvas
+    // Wei modified this script that is referenced from Matt's recording of Managing GameObject List: 
+    // https://canvas.gsa.ac.uk/courses/2804/pages/week-4-introduction-to-c-number-scripting-2?module_item_id=192435
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
     public GameObject welcomePanel;

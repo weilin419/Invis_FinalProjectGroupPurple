@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class ToggleBronchoscopyPanel : MonoBehaviour
 {
+    // Find reference from https://stackoverflow.com/questions/44692366/activeself-return-true-and-gameobject-is-false
     public GameObject bronchoscopyPanel;
     public void Toggle()
     {
-        Debug.Log("Toggle按钮被点击,当前Panel状态:" + bronchoscopyPanel.activeSelf);
         bronchoscopyPanel.SetActive(!bronchoscopyPanel.activeSelf);
     } 
 }
