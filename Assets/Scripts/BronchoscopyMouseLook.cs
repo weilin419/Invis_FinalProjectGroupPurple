@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class BronchoscopyMouseLook : MonoBehaviour
 {
+    // Watch tutorial from https://www.youtube.com/watch?v=_QajrabyTJc
+    
     public float mouseSensitivity = 10f;
     public Transform playerBody;
     float xRotation = 0f;

@@ -8,7 +8,6 @@ public class ModelRotation : MonoBehaviour
     public float yRot = 0.0f;
     public Vector3 eulerRot;
 
-    //This script was taken from and reused Tiffany Lui's diorama formative assessment.
     //Script is from video 6.2 Implementing simple interactions with Input and Transform Classes - Part 2 - Rotation by Matt on Canvas
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
