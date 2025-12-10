@@ -21,11 +21,11 @@ public class ModelRotation : MonoBehaviour
         //This will allow for rotation about the x axis
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            xRot = -1.0f;
+            xRot = -0.5f;
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            xRot = 1.0f;
+            xRot = 0.5f;
         }
         else
         {
@@ -35,11 +35,11 @@ public class ModelRotation : MonoBehaviour
         //This will allow for rotation about the y axis
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            yRot = -1.0f;
+            yRot = -0.5f;
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
-            yRot = 1.0f;
+            yRot = 0.5f;
         }
         else
         {
