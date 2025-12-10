@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class ToggleHighLightForBronchoscopy : MonoBehaviour
 {
+    // Script is from videos 7.1 and 7.2 in Matt's Week 4 Introduction to C# Scripting Canvas module vidoe playlist
+    // Wei modified it for use.
+    
     public bool isClicked = false;
     
     public GameObject myManagerObj;

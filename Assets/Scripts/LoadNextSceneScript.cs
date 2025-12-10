@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneScript : MonoBehaviour
 {
-    //This script was taken from and reused from Tiffany Lui's diorama formative assessment
     //This script is from the UI Demo OnClickBtnLoadScenebyNameScript Video on Canvas by Kerri Thornton
     //This script will allow the next scene to be loaded by name via input in the Unity inspector
 
