@@ -51,7 +51,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Andreea's Scenes/COPDscene.unity
     guid: 7344da8961ca55e4b9b73ea5379b1214
   - enabled: 1
-    path: Assets/Scenes/Andreea's Scenes/Acknowledgements.unity
+    path: Assets/Scenes/Tiffany's Scenes/Acknowledgements.unity
     guid: ce0e956a974580447aecbc7ced38e683
   - enabled: 1
     path: Assets/Scenes/Tiffany's Scenes/AboutScene.unity
