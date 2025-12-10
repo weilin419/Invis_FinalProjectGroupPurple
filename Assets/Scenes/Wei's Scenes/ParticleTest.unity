@@ -521,12 +521,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Droplet mode of transmission\n\nIt is a way infections spread when a sick
-    person coughs, sneezes, or talks, expelling respiratory droplets that are large
-    enough to fall to the ground within a short distance. \n\nThese droplets can
-    then enter another person's body through their mouth, nose, or eyes, or if the
-    droplets are inhaled. This is different from airborne transmission, where particles
-    can stay suspended in the air for longer periods and travel greater distances. "
+  m_text: "Droplet mode of transmission\n\nDroplet infection refers to the transmission
+    of infectious agents through respiratory droplets. These droplets, typically
+    larger than 5 micrometres, are expelled from the respiratory tract when an infected
+    person coughs, sneezes, talks, or breathes heavily. \n\nThese droplets can contain
+    viruses, bacteria, or other pathogens that can infect another person either through
+    direct inhalation or by landing on mucous membranes."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}

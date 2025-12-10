@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class ManageGameObjectListForBronchoscopy : MonoBehaviour
 {
+    //Wei wrote and figure by himself based on Matt's class video on Canvas
     // Creates an empty container named myObject specifically for holding GameObjects
     public List<GameObject> myObjList = new List<GameObject>(); 
     public GameObject welcomePanel;

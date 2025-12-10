@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class BronchoscopyPlayerMovement : MonoBehaviour
 {
+    // Watch tutorial from https://www.youtube.com/watch?v=_QajrabyTJc
     // Public the characterController to assign the script to it.
     public CharacterController controller;
 

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ManageRotation : MonoBehaviour
 {
-    // This script is referenced from Matt's recording of simple inputs and interactions: 
+    // Wei modified this script that is referenced from Matt's recording of simple inputs and interactions: 
     // https://canvas.gsa.ac.uk/courses/2804/pages/week-3-introduction-to-scripting?module_item_id=192434
     private float yRot = 0.0f;
     private Vector3 eulerRot;
