@@ -832,6 +832,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 982207249}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &214997166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1088,7 +1100,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 269212408}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 982207249}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &269212408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1306,7 +1330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -198.95752, y: -2}
   m_SizeDelta: {x: 631, y: 724}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463994971
@@ -1329,7 +1353,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This pop-up panel will show the text about the diagnosis \nof COPD"
+  m_text: 'Specific parameters are important when diagnosing Alpha-1 Antitrypsin
+    Deficiency, as although the condition is associated with an increase risk of
+    developing COPD, incorrect diagnosis approaches will continue the cycle of under-diagnosis.
+
+
+    Spirometry
+    is performed before and after administering an inhaled bronchodilator (Agarwal
+    et al, 2023). Spirometry, specifically, post-bronchodilator FEV1/FVC<0.7is mandatory
+    to establish the diagnosis of COPD, as proposed by GOLD (2024). A ratio of the
+    forced expiratory volume in one second to forced vital capacity (FEV1/FVC) less
+    than 0.7 is reported to confirm the diagnosis of COPD. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
@@ -1356,8 +1390,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1394,7 +1428,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -160.63171, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1579,7 +1613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -201.3529, y: -27}
   m_SizeDelta: {x: 631, y: 724}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542115981
@@ -1602,7 +1636,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This pop-up panel will show the text about the treatments for COPD
+  m_text: "Management of COPD, as proposed by GOLD (2024) includes Pharmacologic
+    therapy using green inhalers and smoking cessation. \n\nAvoiding second hand
+    smoking exposure and reducing exposure to harmful agents such as inorganic substances
+    (asbestos, beryllium, carbon dust, silica, chromium) and coal stoves may also
+    prove helpful in the management of the condition ((Pahal, Avula & Afzal, 2025).\nAvoiding
+    air pollutants and smoking cessation are often as managing techniques for COPD
+    that apply to AATD as well."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
@@ -1629,8 +1669,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1667,7 +1707,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -160.44421, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1880,7 +1920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &613601846
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4892,7 +4932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -70.747314, y: 0}
   m_SizeDelta: {x: 631, y: 724}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1513569271
@@ -4915,7 +4955,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This pop-up panel will show the text about the etiology of COPD
+  m_text: "Chronic obstructive pulmonary disease (COPD) is the 3rd most common cause
+    of death around the world (Kahnert et al, 2023).\n\nIn the United States COPD
+    affects more than 14 million adults, and more than half of the diagnosed COPD
+    patients are women, with higher-than-average rates in American Indian and Alaskan
+    communities (NHLNI).\nIt is the 6th leading cause of death in the United States,
+    according to the Centres for Disease Control and Prevention (NHLNI). \nCOPD encompasses
+    patients with Chronic Bronchitis and Emphysema, as its two main constituent conditions,,,
+    as well as AATD (Alpha-1 Anti-Trypsyn Deficiency) as its main genetic contributor."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
@@ -4942,8 +4989,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4980,7 +5027,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -134.21948, y: 0, z: -70.66907, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5609,6 +5656,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 982207249}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1695298363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5975,8 +6034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 631, y: 724}
+  m_AnchoredPosition: {x: -81.5, y: -1}
+  m_SizeDelta: {x: 506, y: 722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932210310
 MonoBehaviour:
@@ -5998,7 +6057,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This pop-up panel will show the text about the pathophysiology\n of COPD"
+  m_text: 'COPD is often characterised by poorly reversible airflow obstruction 
+    caused by an abnormal inflammatory response in the lungs, which represents the
+    innate and the adaptive immune responses to long term exposure  environmental
+    factors such as noxious particles and gasses, particularly, cigarette smoke (MacNee,
+    (2006).
+
+
+    During the inflammatory response caused by the destruction of 
+    alveolar acini and thus the obstructive physiology of Emphysema, neutrophils
+    and macrophages are recruited and release multiple inflammatory mediators, oxidants
+    and excess proteases leading to the destruction of the air sacs. Elastin recoil
+    and airway collapse during exhalation are then caused by the protease-mediated
+    destruction of elastin, which can be amplified by AATD (Agarwal et al, 2023). '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
   m_sharedMaterial: {fileID: -4709617436596681206, guid: 817113b8cb5de3145817c278285a3e47, type: 2}
@@ -6025,8 +6096,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6063,7 +6134,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -204.69427, y: 0, z: -231.52502, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
