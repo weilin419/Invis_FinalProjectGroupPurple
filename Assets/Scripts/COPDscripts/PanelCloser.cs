@@ -8,6 +8,7 @@ using System.Linq;
 public class PanelCloser : MonoBehaviour
 {
 
+//I used the same script as for panel opener but inverted the script because I knew PanelOpener script would cancel itself out unless true/false were reversed (wrote this myself hehe)
     public List<GameObject> myObjList;
 
 
@@ -21,4 +22,3 @@ public class PanelCloser : MonoBehaviour
         obj.SetActive(false);
     }
 }
-//I used the same script as for panel opener but inverted the script because I knew PanelOpener script would cancel itself out unless true/false were reversed (wrote this myself hehe)
