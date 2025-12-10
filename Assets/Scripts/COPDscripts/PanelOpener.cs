@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-
+//this whole script was written by myself (Andreea) with the help of Matthiew Poyade
 public class PanelOpener : MonoBehaviour
 {
 
@@ -54,5 +54,5 @@ public class PanelOpener : MonoBehaviour
         }
   
 
-    }// i will link the reference for this script, but I wanted to show a different approach to switching between panels by just clicking on any of the buttons present,through code rather than UI
+    }// I wanted to still keep this old script for my own interest in order to compare it which what Matt helped me write and understand the differences
     */
