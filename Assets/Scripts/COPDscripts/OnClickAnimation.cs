@@ -5,6 +5,7 @@ public class OnClickAnimation : MonoBehaviour
 
 {
 
+//This script is from Kerri's 06 Animation - How to use Scripting to Trigger and Animation using the Animator Part 1 Video on Canvas
     Animator animator;
     public GameObject showAnimationButton;
 
