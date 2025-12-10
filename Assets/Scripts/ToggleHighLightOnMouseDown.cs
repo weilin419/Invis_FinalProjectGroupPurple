@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ToggleHighLightOnMouseDown : MonoBehaviour
 {
-    //Script from Matt's videos on Canvas
+    // This script is referenced from Matt's recording of Click and Select: 
+    // https://canvas.gsa.ac.uk/courses/2804/pages/week-4-introduction-to-c-number-scripting-2?module_item_id=192435 
     
     public bool isClicked = false;
     
